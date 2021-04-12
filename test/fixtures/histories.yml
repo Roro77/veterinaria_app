@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2021-04-11
+  weight: 1.5
+  height: 1.5
+  description: MyText
+  pet: one
+
+two:
+  date: 2021-04-11
+  weight: 1.5
+  height: 1.5
+  description: MyText
+  pet: two
