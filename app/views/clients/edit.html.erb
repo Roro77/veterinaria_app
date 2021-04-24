@@ -1,0 +1,6 @@
+<h1>Editing Client</h1>
+
+<%= render 'form', client: @client %>
+
+<%= link_to 'Show', [@client, @pet, @history] %> |
+<%= link_to 'Back', client_pets_histories_path(@pet) %>

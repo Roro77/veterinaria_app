@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  resources :pets do
-    resources :histories
-  end
+  resources :clients do
+      resources :pets do
+        resources :histories
+    end
+  end 
 
-  root 'pets#index'
+  root 'clients#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
